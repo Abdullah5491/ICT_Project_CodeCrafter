@@ -313,16 +313,56 @@ font-family: 'Rubik', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 footer{
-    background: black;
+    background: rgb(39, 32, 32);
     color: white;
     width: 100%;
     height: 45vh;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
 }
+.fmenu{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.fcourses{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 10%;
+}
+.link{
+    margin-top: 10%;
+    margin-left: -17%;
+}
+.right{
+    margin-top: 7%;
+}
+.fcontact{
+    margin-left: 55%;
+    line-height: 150%;
+}
+
+.link ul li {
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+    list-style: none;
+}
+.link ul li a{
+    color: white;
+    list-style: none;
+    text-decoration: none;
+}
+.flogo{
+    margin-left: 2%;
+}
+
 
 .h-primary{
     font-size: 3.8rem;
@@ -345,25 +385,6 @@ footer{
     cursor:pointer;
 }
 
-.center{
-    margin-top: 7vh;
-
-}
-.touch{
-    margin-left: 70vw;
-    margin-top: 7vh;
-    }
-.touch a{
-    text-decoration: none;
-    color: #fbc02d;
-}
-.touch a:hover{
-    color:#ba82a7;
-}
-.touch h5{
-    letter-spacing: 1px;
-    line-height: 25px;
-}
 .m-contact{
     display: flex;
     justify-content: center;
@@ -642,4 +663,8 @@ font-weight: 400;
 }
 .tabs:hover .text span {
     color: white;
+}
+.flogo img{
+    height: 59px;
+
 }

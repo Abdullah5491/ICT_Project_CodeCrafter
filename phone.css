@@ -51,7 +51,7 @@
 .form-group{
     width: 96%;
 }
-.center{
+.right{
     margin-left: 5%;
     margin-right: 5%;
     display: flex;
@@ -132,4 +132,16 @@
 .subimg img {
     width: 80vw;
     height: 25vh;
+}
+.fcontact{
+    display: none;
+}
+.fcourses{
+    display: none;
+}
+.flogo{
+    display: none;
+}
+footer{
+    height: 10vh;
 }
