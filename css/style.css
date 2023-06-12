@@ -77,7 +77,7 @@ html{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url('../img/bg2.jpg') no-repeat center center/cover;
+    background: url(/img/bg2.jpg) no-repeat center center/cover;
     background-attachment: fixed;
     height: 642px;
     top:0px;
