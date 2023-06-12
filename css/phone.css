@@ -1,0 +1,135 @@
+#navbar {
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+.menu{
+    padding-left: 0;
+}
+
+.m-contact {
+    flex-direction: column;
+}
+.info{
+    border-radius: 20px;
+    width: 85%;
+}
+.email{
+    display: flex;
+    flex-direction:row;
+    align-self: flex-start;
+    margin-left: 5%;
+    width:78%;
+}
+.email h5{
+    margin-left: 5%;
+    margin-top: 3%;
+}
+.email h3{
+    
+    margin-top: 4%;
+    word-wrap: break-word;
+    width: 80%;
+    margin-left: 5%;
+}
+.c-email {
+    width: 85%;
+    display: inline-flex;
+    flex-direction: column;
+}
+.contact-form{
+    width: 85%;
+    border-radius: 20px;
+}
+.adcontent{
+    margin-right: 5%;
+}
+.form-group{
+    width: 96%;
+}
+.center{
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+    
+
+}
+
+.c-content{
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: -25%;
+}
+.cimg{
+    display: none;
+}
+.grid{
+    width: 85%;
+}
+.text{
+    margin-top: 25%;
+}
+.cicon img {
+    width: 11vw;
+    height: auto;
+    margin-left: 125%;
+    margin-top: 25%;
+}
+.cbg{
+    background-position:right;
+}
+.graphic-2 img{
+    display: none;
+}
+.graphic-2{
+    display: none;
+}
+#home{
+    flex-direction: column;
+    height: auto;
+    margin-left: -53%;
+    margin-top: 5%;
+
+}
+.grades{
+    display: inline;
+    border: 2px solid red;
+    width: 160%;
+    line-height: 40px;
+}
+#home::before{
+    height: 740px;
+}
+.graphics {
+    display: flex;
+    width: 90vw;
+    height: 55vh;
+    margin-top: -4vh;
+    margin-right: -50vw;
+}
+.content-2 {
+    margin-top: -30%;
+    width: 80vw;
+}
+.leftitems{
+    margin-left: 0%;
+}
+.sub{
+    width: 80vw;
+    height: 50vh;
+    margin-bottom: 10%;
+}
+.subimg img {
+    width: 80vw;
+    height: 25vh;
+}
