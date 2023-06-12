@@ -313,7 +313,7 @@ font-family: 'Rubik', sans-serif;
     font-family: 'Rubik', sans-serif;
 }
 footer{
-    background: rgb(39, 32, 32);
+    background: rgb(0, 0, 0);
     color: white;
     width: 100%;
     height: 45vh;
@@ -334,16 +334,28 @@ footer{
     text-align: left;
     margin-left: 10%;
 }
+.fcourses h3{
+    color: #94457a;
+}
 .link{
     margin-top: 10%;
     margin-left: -17%;
 }
 .right{
-    margin-top: 7%;
+    margin-top: 5%;
 }
 .fcontact{
     margin-left: 55%;
     line-height: 150%;
+}
+.fcontact h3{
+    color: #94457a;
+}
+.fcontact h3:hover{
+    color: #fbc02d;
+}
+.fcontact div{
+    margin-top: 5%;
 }
 
 .link ul li {
@@ -360,7 +372,7 @@ footer{
     text-decoration: none;
 }
 .flogo{
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 
