@@ -77,7 +77,7 @@ html{
 #home::before{ 
     content: "";
     position: absolute;
-    background: url(/img/bg2.jpg) no-repeat center center/cover;
+    background: url(img/bg2.jpg) no-repeat center center/cover;
     background-attachment: fixed;
     height: 642px;
     top:0px;
@@ -184,7 +184,7 @@ margin-top: 7%;
     flex-direction: column;
     margin-top: 7%;
     align-items: flex-start;
-    background: url(/img/bg.png) no-repeat right;
+    background: url(img/bg.png) no-repeat right;
     background-size:30%;
     background-position-y: 100%;
 }
@@ -371,7 +371,7 @@ footer{
     color: black;
     flex-wrap: wrap;
     padding-bottom:15% ;
-    background: url(/img/bg4.jpg)no-repeat center center/cover;
+    background: url(img/bg4.jpg)no-repeat center center/cover;
 }
 .info{
     display: flex;
@@ -501,7 +501,7 @@ footer{
     justify-content: center;
     align-items: center;
   text-align: center;
-  background: url(/img/aboutbg.jpg)no-repeat center center/cover;
+  background: url(img/aboutbg.jpg)no-repeat center center/cover;
 }
 #aboutcon{
     width: 80%;
@@ -524,7 +524,7 @@ footer{
 }
 .cbg{
     content: "";
-    background: url(/img/courbg.webp);
+    background: url(img/courbg.webp);
     height: 100vh;
     min-height: 100%;
     position: relative;
