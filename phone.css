@@ -114,12 +114,15 @@
     display: flex;
     width: 90vw;
     height: 55vh;
-    margin-top: -4vh;
+    margin-top: -2vh;
     margin-right: -50vw;
 }
 .content-2 {
-    margin-top: -30%;
+    margin-top: -15%;
     width: 80vw;
+}
+.c-content div{
+    margin-bottom: 18%;
 }
 .leftitems{
     margin-left: 0%;
