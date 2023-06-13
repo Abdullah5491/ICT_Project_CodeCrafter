@@ -142,6 +142,13 @@
 .flogo{
     display: none;
 }
+.flogos{
+    display: none;
+}
+.resources
+{
+    display: none;
+}
 footer{
     height: 10vh;
 }

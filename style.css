@@ -316,36 +316,38 @@ footer{
     background: rgb(0, 0, 0);
     color: white;
     width: 100%;
-    height: 45vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
+    justify-self:center;
     align-items: center;
-    justify-content: center;
 
 }
 .fmenu{
     display: flex;
     flex-direction: row;
     width: 100%;
+    justify-content: space-evenly;
+    margin-top: 3%;
 }
 .fcourses{
-    display: flex;
-    flex-direction: column;
-    text-align: left;
     margin-left: 10%;
+
 }
 .fcourses h3{
     color: #94457a;
+    width: 150%;
 }
 .link{
     margin-top: 10%;
     margin-left: -17%;
 }
-.right{
-    margin-top: 5%;
+.flogos img {
+    width: 70%;
+    margin-left: -2%;
 }
 .fcontact{
-    margin-left: 55%;
+    margin-left: 15%;
     line-height: 150%;
 }
 .fcontact h3{
@@ -357,7 +359,17 @@ footer{
 .fcontact div{
     margin-top: 5%;
 }
+.resources{
 
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+
+}
+.resources h3{
+    color: #94457a;
+    margin-left: -5%;
+}
 .link ul li {
     color: white;
     display: block;
@@ -374,7 +386,9 @@ footer{
 .flogo{
     margin-left: 3%;
 }
-
+.right {
+    margin-top: 2%;
+}
 
 .h-primary{
     font-size: 3.8rem;
