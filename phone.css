@@ -103,7 +103,6 @@
 }
 .grades{
     display: inline;
-    border: 2px solid red;
     width: 160%;
     line-height: 40px;
 }
