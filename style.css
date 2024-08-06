@@ -11,6 +11,13 @@
     margin: 0 auto;
     
 }
+@media screen and (max-width: 1200px){
+.contain{
+    width: 100%;
+    margin: 0 20px;
+}
+*{width: 100vw;}
+}
 .subjectbg{
     background: url(img/bg3.jpg) no-repeat center center/cover;
 }
@@ -612,7 +619,6 @@ footer{
 .cbg{
     content: "";
     background: url(img/courbg.webp);
-    height: 100vh;
     min-height: 100%;
     position: relative;
     background-size: cover;
@@ -620,6 +626,7 @@ footer{
     background-position: top center;
     background-attachment: fixed;
     z-index: 0;
+padding-top: 30px;
 }
 
 .c-graphics{
@@ -672,7 +679,7 @@ footer{
     margin-bottom: 5%;
 }
 .c-content2 img{
-    height: 150vh;
+    height: 775px;
 }
 .grid{
     display: flex;
@@ -704,7 +711,7 @@ footer{
 }
 
 .cicon img {
-    width: 7vw;
+    width: 90px;
     height: auto;
     margin-left: 10%;
     margin-top: 25%; 
@@ -730,7 +737,86 @@ font-weight: 400;
 .tabs:hover .text span {
     color: white;
 }
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.footer-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.footer-box > div {
+    flex: 1;
+    margin: 10px;
+}
+
+.social-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: #fbc02d;
+}
+
+.reserved-rights {
+    text-align: center;
+    margin-top: 20px;
+}
 .flogo img{
     height: 59px;
+    margin: 3px 6px;
+}
+footer{
+    background-color: #000;
+}
+/* General styles for background */
+.subjectbg {
+    background: url(img/bg3.jpg) no-repeat center center/cover;
+}
 
+/* Media query for smaller screens */
+@media screen and (max-width: 770px) {
+    .subjectbg {
+        background-size: cover;
+        background-position: center;
+    }
+
+    #home::before {
+        background-size: cover;
+        background-position: center;
+        height: auto; /* Adjust height to auto for smaller screens */
+    }
+
+    .section-2bg {
+        background-size: cover;
+        background-position: center;
+    }
 }
